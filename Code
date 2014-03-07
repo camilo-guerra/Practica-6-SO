@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+main(int argc, char *argv[]){
+system("ls");
+char a[20];
+printf("FAT32Utility> ");
+scanf("%s",a);
+
+
+ printf("You entered: %c\n", a[6]);
+
+if(strcmp(c,"FAT32VIEW")==0){
+
+system("mkdir hola");
+}
+
+}
