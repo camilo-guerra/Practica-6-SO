@@ -7,16 +7,20 @@
 
 main(int argc, char *argv[]){
 //system("alias ho=mkdir");
+char a[50]="source hol.sh ";
+strcat(a,argv[1]);
+
 //system("umount ~/FAT32Utility");
 //system("chmod +x hol.sh");
 
+//printf("%s",argv[1]); 
 //system("cd ~/FAT32Utility");
 //system("mount -t vfat -o loop fat32.img ~/FAT32Utility");
 //system("cd ..");
 
-//mkdir("holame");
+printf("%s",a); 
 
-
+//system(a);
 
 
 
